@@ -1,0 +1,244 @@
+[{
+    "group": "anonymous",
+    "permissions": [{
+      "resource": "*",
+      "methods": "*",
+      "action": "deny"
+    }]
+  },
+  {
+    "group": "admin",
+    "permissions": [{
+      "resource": "*",
+      "methods": "*",
+      "action": "allow"
+    }]
+  },
+  {
+    "group": "country",
+    "permissions": [{
+        "resource": "/auth/*",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+      },
+      {
+        "resource": "/analytics/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/areas/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/campaigns/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/categories/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/checkpoint_submissions/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/checkpoints/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/countries/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/indicators/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/regions/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/sent_campaigns/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/store_types/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/stores/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/users/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "region",
+    "permissions": [{
+        "resource": "/auth",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+      },
+      {
+        "resource": "/analytics/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/areas/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/campaigns/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/categories/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/checkpoint_submissions/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/checkpoints/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "/countries/*",
+        "methods": ["GET", "POST", "PUT"],
+        "action": "allow"
+      },
+      {
+        "resource": "/indicators/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/regions/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/sent_campaigns/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/store_types/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/stores/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/users/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "manager",
+    "permissions": [{
+        "resource": "/auth",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+      },
+      {
+        "resource": "/analytics/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/areas/*",
+        "methods": "*",
+        "action": "deny"
+      },
+      {
+        "resource": "/campaigns/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/categories/*",
+        "methods": "*",
+        "action": "deny"
+      },
+      {
+        "resource": "/checkpoint_submissions/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/checkpoints/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "/countries/*",
+        "methods": "*",
+        "action": "deny"
+      },
+      {
+        "resource": "/indicators/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/regions/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "/sent_campaigns/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "/store_types/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "/stores/*",
+        "methods": ["GET", "PUT"],
+        "action": "allow"
+      },
+      {
+        "resource": "/users/",
+        "methods": "*",
+        "action": "deny"
+      },
+      {
+        "resource": "/users/:id",
+        "methods": ["GET", "PUT"],
+        "action": "allow"
+      }
+    ]
+  }
+]

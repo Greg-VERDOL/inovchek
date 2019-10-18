@@ -1,0 +1,42 @@
+{
+	"name": "inovcheck-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server",
+		"server": "nodemon server",
+		"client": "npm start --prefix client",
+		"clientinstall": "npm install --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"dependencies": {
+		"@sendgrid/mail": "^6.4.0",
+		"aphrodite": "^2.3.1",
+		"app-root-path": "^2.2.1",
+		"bcryptjs": "^2.4.3",
+		"config": "^3.1.0",
+		"connect-mongo": "^3.0.0",
+		"connect-mongodb-session": "^2.1.1",
+		"cookie-parser": "^1.4.4",
+		"cors": "^2.8.5",
+		"csurf": "^1.10.0",
+		"express": "^4.16.4",
+		"express-acl": "^2.0.5",
+		"express-session": "^1.16.1",
+		"express-validator": "^5.3.1",
+		"glamor": "^2.20.40",
+		"helmet": "^3.18.0",
+		"jsonwebtoken": "^8.5.1",
+		"lodash": "^4.17.15",
+		"moment": "^2.24.0",
+		"mongoose": "^5.5.6",
+		"mongoose-deep-populate": "^3.1.1",
+		"morgan": "^1.9.1",
+		"uuid": "^3.3.2"
+	},
+	"devDependencies": {
+		"concurrently": "^4.1.0",
+		"nodemon": "^1.19.0"
+	}
+}

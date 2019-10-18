@@ -1,0 +1,6 @@
+{
+  "name": "Countries",
+  "version": "0.0.0",
+  "main": "CountryView.js",
+  "private": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Categories",
+  "version": "0.0.0",
+  "main": "CategoryView.js",
+  "private": true
+}

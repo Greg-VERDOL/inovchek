@@ -1,0 +1,6 @@
+{
+  "name": "Regions",
+  "version": "0.0.0",
+  "main": "RegionView.js",
+  "private": true
+}

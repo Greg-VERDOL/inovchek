@@ -1,0 +1,6 @@
+{
+  "name": "Stores",
+  "version": "0.0.0",
+  "main": "StoreView.js",
+  "private": true
+}
